@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>FrontEnd Store</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img
+          class="header__logo"
+          src="./img/logo.png"
+          alt="Logotipo de empresa"
+        />
+      </a>
+    </header>
+    <nav class="navegacion">
+      <a class="navegacion__enlace" href="index.html">Tienda</a>
+      <a
+        class="navegacion__enlace navegacion__enlace--activo"
+        href="nosotros.html"
+        >Nosotros</a
+      >
+    </nav>
+    <main class="contenedor">
+      <h1>Sobre Nosotros</h1>
+      <div class="nosotros">
+        <div class="nosotros__contenido">
+          <p>
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras
+            lorem turpis, egestas vitae nisi vel, pellentesque feugiat arcu.
+            Vivamus varius, lorem ut porttitor pellentesque, turpis lacus
+            aliquam libero, a sollicitudin lorem dui sit amet urna. Fusce varius
+            semper felis id sollicitudin. Aliquam eget ligula vitae erat
+            consectetur tempus. Curabitur aliquet ex ut viverra fermentum. Fusce
+            et ante sed urna pellentesque iaculis. Cras scelerisque ex eget mi
+            suscipit, vel cursus lacus feugiat. Morbi euismod interdum
+            fringilla. Vivamus viverra lorem sit amet turpis elementum, et
+            porttitor arcu scelerisque.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+            tenetur in sed, expedita voluptatibus omnis autem perferendis ullam?
+            Dolorem ullam dignissimos sunt, similique quaerat et! Sunt repellat
+            ut aspernatur ipsam!
+          </p>
+        </div>
+        <img
+          class="nosotros__imagen"
+          src="./img/nosotros.jpg"
+          alt="imagen nosotros"
+        />
+      </div>
+    </main>
+    <section class="contenedor comprar">
+      <h2 class="comprar__titulo">Por qué comprar con nosotros</h2>
+      <div class="bloques">
+        <div class="bloque">
+          <img
+            class="bloque__imagen"
+            src="./img/icono_1.png"
+            alt="Por qué comprar"
+          />
+          <h3 class="bloque__titulo">El mejor precio</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+            veritatis quisquam aliquam id. Voluptas, officiis labore. Suscipit,
+            dolore animi. Error, eius? Libero neque voluptatum voluptates!
+            Assumenda alias eum in ab.
+          </p>
+        </div>
+        <div class="bloque">
+          <img
+            class="bloque__imagen"
+            src="./img/icono_2.png"
+            alt="Por qué comprar"
+          />
+          <h3 class="bloque__titulo">Para devs</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+            veritatis quisquam aliquam id. Voluptas, officiis labore. Suscipit,
+            dolore animi. Error, eius? Libero neque voluptatum voluptates!
+            Assumenda alias eum in ab.
+          </p>
+        </div>
+        <div class="bloque">
+          <img
+            class="bloque__imagen"
+            src="./img/icono_3.png"
+            alt="Por qué comprar"
+          />
+          <h3 class="bloque__titulo">Envío gratis</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+            veritatis quisquam aliquam id. Voluptas, officiis labore. Suscipit,
+            dolore animi. Error, eius? Libero neque voluptatum voluptates!
+            Assumenda alias eum in ab.
+          </p>
+        </div>
+        <div class="bloque">
+          <img
+            class="bloque__imagen"
+            src="./img/icono_4.png"
+            alt="Por qué comprar"
+          />
+          <h3 class="bloque__titulo">La mejor calidad</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+            veritatis quisquam aliquam id. Voluptas, officiis labore. Suscipit,
+            dolore animi. Error, eius? Libero neque voluptatum voluptates!
+            Assumenda alias eum in ab.
+          </p>
+        </div>
+        <!-- .bloque -->
+      </div>
+      <!-- .bloques -->
+    </section>
+    <footer class="footer">
+      <p class="footer__texto">
+        Front End Store - Todos los derechos reservados <span id="date"></span>
+      </p>
+    </footer>
+    <script type="text/javascript">
+      var today = new Date();
+      document.getElementById("date").innerHTML = today.getFullYear();
+    </script>
+  </body>
+</html>
